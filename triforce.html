@@ -1,0 +1,36 @@
+<title>
+ ▲
+▲ ▲
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" /> 
+<style>
+svg {
+	display: block;
+	width: 360px;
+	height: 360px;
+	margin: -180px 0 0 -180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}  
+</style>
+<svg>
+	<g id="triforce">
+		<g transform="translate(4, 140)">
+			<polygon 
+			id="piece"  
+			points="0,0 162,0 80,140"
+			transform="rotate(180, 84, 84)"
+			stroke="#ffd201"
+			fill="#ffe13c"
+			stroke-width="8" />
+		</g>
+		<g transform="translate(92, -10)">
+			<use xlink:href="#piece" />
+		</g>
+		<g transform="translate(178, 140)">
+			<use xlink:href="#piece" />
+		</g>
+	</g>
+</svg>
+
